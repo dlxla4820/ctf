@@ -50,16 +50,21 @@
 
 ```
 src
-├── main
-│   ├── java
-│   │   └── kimdaehan
-│   │       ├── controller   # 요청 처리
-│   │       ├── service      # 비즈니스 로직
-│   │       ├── domain       # 엔티티
-│   │       └── repository   # DB 접근
-│   └── resources
-│       ├── templates        # Thymeleaf 템플릿
-│       └── static           # 정적 리소스 (JS, CSS)
+└── main
+    ├── java
+    │   └── kimdaehan
+    │       ├── auth           # 인증 관련 처리
+    │       ├── configuration  # Spring Security 등 설정
+    │       ├── controller     # 요청 처리
+    │       ├── dto            # 데이터 전송 객체
+    │       ├── entity         # JPA 엔티티
+    │       ├── repository     # DB 접근
+    │       ├── scheduler      # 대회 시간 제한 스케줄러
+    │       ├── service        # 비즈니스 로직
+    │       └── util           # 공통 유틸리티
+    └── resources
+        ├── templates          # Thymeleaf 템플릿
+        └── static             # 정적 리소스 (JS, SCSS, CSS)
 ```
 
 <br>
@@ -73,4 +78,8 @@ src
 <img width="1280" alt="점수판" src="https://github.com/user-attachments/assets/6ac41d87-e109-4e90-862a-9d4e65dd2ac7" />
 <img width="1280" alt="점수판 그래프" src="https://github.com/user-attachments/assets/84880f87-8a53-441d-b497-63f172c721a5" />
 
-<br>
+
+
+# 3. 빌드 및 실행
+./gradlew bootRun
+```
