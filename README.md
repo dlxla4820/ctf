@@ -79,7 +79,3 @@ src
 <img width="1280" alt="점수판 그래프" src="https://github.com/user-attachments/assets/84880f87-8a53-441d-b497-63f172c721a5" />
 
 
-
-# 3. 빌드 및 실행
-./gradlew bootRun
-```
