@@ -59,7 +59,7 @@ src
     │       ├── dto            # 데이터 전송 객체
     │       ├── entity         # JPA 엔티티
     │       ├── repository     # DB 접근
-    │       ├── scheduler      # 대회 시간 제한 스케줄러
+    │       ├── scheduler      # 매 정각 소속별(NB/YB/SCH/ALL) 랭킹 스냅샷 저장
     │       ├── service        # 비즈니스 로직
     │       └── util           # 공통 유틸리티
     └── resources
